@@ -51,13 +51,18 @@ export const NewsletterSection: React.FC = () => {
     <div className="max-w-[1000px] w-full mx-auto flex flex-col md:flex-row items-center md:items-start gap-10 lg:gap-16 pt-8 pb-16">
       {/* Left Column: Image - Smaller icon size per request */}
       <div className="flex-shrink-0 pt-2">
-        <div className="relative w-36 h-36 rounded-[2rem] overflow-hidden shadow-image transform transition-transform duration-500 hover:scale-[1.02]">
+        <a 
+          href="https://ashwanth.dev/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="block relative w-36 h-36 rounded-[2rem] overflow-hidden shadow-image transform transition-transform duration-500 hover:scale-[1.02]"
+        >
            <img 
             src="https://raw.githubusercontent.com/ashwanth2007/test/refs/heads/main/out-25.webp" 
             alt="AI Systems Engineer" 
             className="w-full h-full object-cover"
           />
-        </div>
+        </a>
       </div>
 
       {/* Right Column: Content & Form */}
@@ -66,7 +71,7 @@ export const NewsletterSection: React.FC = () => {
           How To Build AI Systems<br />for Fortune 500 Companies
         </h1>
         
-        <p className="text-2xl text-gray-600 italic font-normal leading-relaxed mb-8 max-w-3xl">
+        <p className="text-lg text-gray-600 italic font-normal leading-relaxed mb-8 max-w-3xl">
           Learn how to build AI systems that deliver results for Fortune 500 companies. Get weekly insights on real production systems, n8n workflows that scale, and automation strategies from real enterprise projects.
         </p>
 

@@ -5,7 +5,7 @@ const App: React.FC = () => {
   return (
     <>
       <div 
-        className="fixed top-0 left-0 w-full h-3 z-50 shadow-md"
+        className="fixed top-0 left-0 w-full h-[9px] z-50 shadow-md"
         style={{
           background: 'linear-gradient(90deg, #000000 80%, #DC2626 100%)'
         }}
