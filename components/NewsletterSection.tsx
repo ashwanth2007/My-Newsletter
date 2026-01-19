@@ -71,8 +71,12 @@ export const NewsletterSection: React.FC = () => {
           How To Build AI Systems<br />for Fortune 500 Companies
         </h1>
         
-        <p className="text-lg text-gray-600 italic font-normal leading-relaxed mb-8 max-w-3xl">
+        <p className="text-lg text-gray-600 italic font-normal leading-relaxed mb-6 max-w-3xl">
           Learn how to build AI systems that deliver results for Fortune 500 companies. Get weekly insights on real production systems, n8n workflows that scale, and automation strategies from real enterprise projects.
+        </p>
+
+        <p className="text-gray-900 italic font-medium mb-6 text-base">
+          Join 4,000+ operators building enterprise AI systems
         </p>
 
         <form onSubmit={handleSubmit} className="w-full max-w-2xl space-y-3 mx-auto md:mx-0">
