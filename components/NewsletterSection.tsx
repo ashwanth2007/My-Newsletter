@@ -58,7 +58,7 @@ export const NewsletterSection: React.FC = () => {
           className="block relative w-36 h-36 rounded-[2rem] overflow-hidden shadow-image transform transition-transform duration-500 hover:scale-[1.02]"
         >
            <img 
-            src="https://raw.githubusercontent.com/ashwanth2007/test/refs/heads/main/out-25.webp" 
+            src="https://github.com/ashwanth2007/Resources/blob/main/profile-pic.jpg?raw=true" 
             alt="AI Systems Engineer" 
             className="w-full h-full object-cover"
           />
@@ -76,7 +76,7 @@ export const NewsletterSection: React.FC = () => {
         </p>
 
         <p className="text-gray-900 italic font-medium mb-6 text-base">
-          Join 4,000+ operators building enterprise AI systems
+          Join 4,000+ operators building Enterprise-Grade AI systems
         </p>
 
         <form onSubmit={handleSubmit} className="w-full max-w-2xl space-y-3 mx-auto md:mx-0">
